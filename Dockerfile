@@ -1,4 +1,3 @@
-# Assuming you'll want this initial image
-FROM rocker/tidyverse
-
-# Add the rest of what you need below!
+# This should be all you need if you need to deploy from this repo
+# Ideally you should be able to use the public repo in our class org though
+FROM jrembold/web2db
